@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>LOGIN WITH DARK MODE</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+            <div id="social_media">
+                <a href="#"><img src="images/facebook.png" alt="facebook logo"></a>
+                <a href="#"><img src="images/google.png" alt="google logo"></a>
+                <a href="#"><img src="images/github.png" alt="github logo"></a>
+            </div>
+            <div id="inputs">
+                <div class="input_box">
+                    <label for="nome">
+                        Nome
+                        <div class="input_field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="nome" id="nome">
+                        </div>
+                    </label>
+                </div>
+                <div class="input_box">
+                    <label for="email">
+                        Email
+                        <div class="input_field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </label>
+                </div>
+                <div class="input_box">
+                    <label for="senha">
+                        Senha
+                        <div class="input_field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" name="senha" id="senha">
+                        </div>
+                    </label>
+
+                    <div id="forgot_password">
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" id="login_button">Login</button>
+        </form>
+        <footer>
+            <p>&copy; 2023 <strong>KALLEB</strong></p>
+        </footer>
+    </main>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
